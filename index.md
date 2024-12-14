@@ -6,7 +6,8 @@
 
 **如果网页有任何问题，请至** [GitHub到该项目](https://github.com/CB-X2-Jun/CB-X2-Jun.github.io) **向** [CB_X2_Jun](https://github.com/CB-X2-Jun) **提交** [Issues](https://github.com/CB-X2-Jun/CB-X2-Jun.github.io/issues) **。**
 
-注：在每个网页的网址栏后加上 `.md` 就可以看到 `Markdown` 源码啦~
+注：在每个网页的网址栏后加上 `.md` 就可以看到 `Markdown` 源码啦~  
+（如果是本页，也就是首页，请加上 `/index.md`）
 
 ## GitHub 项目链接（欢迎提出宝贵建议、一起合作）
 [https://github.com/CB-X2-Jun/CB-X2-Jun.github.io](https://github.com/CB-X2-Jun/CB-X2-Jun.github.io)
