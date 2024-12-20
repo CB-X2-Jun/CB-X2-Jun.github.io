@@ -13,5 +13,9 @@
 [https://github.com/CB-X2-Jun/CB-X2-Jun.github.io](https://github.com/CB-X2-Jun/CB-X2-Jun.github.io)
 
 ---
+Codeforces [![Codeforces Rating of @zzh0518](https://cfrating.baoshuo.dev/rating?username=zzh0518&style=social)](https://codeforces/profile/zzh0518)  
+AtCoder [![AtCoder Rating of @junzzh](https://atrating.baoshuo.dev/rating?username=junzzh&style=social)](https://atcoder.jp/users/junzzh)
+
+---
 ### 访客统计
 ![访客统计](https://flagcounter.me/e7K)
