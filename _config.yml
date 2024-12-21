@@ -6,5 +6,6 @@ highlighter: rouge
 gist:
   noscript: false
 kramdown:
-  math_engine: null
+  math_engine: mathjax
+  syntax_highlighter: rouge
 theme: jekyll-theme-minimal
