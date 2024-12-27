@@ -5,6 +5,7 @@
 |编号|标题|标签|
 |-:|-:|-:|
 |ZJ001|[冰雹猜想/角谷猜想](https://cb-x2-jun.github.io/problem/ZJ001)|模拟;数学;循环结构|
+|ZJ002|[小 A 喜欢字母 A](https://cb-x2-jun.github.io/problem/ZJ002)|字符串;循环结构|
 
 ---
 ### 访客统计
