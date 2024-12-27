@@ -5,12 +5,16 @@
 1. 编号为“ZJ”开头的是 CB_X2_Jun 的 [综合简单题库【ZJ】](https://www.luogu.com.cn/training/542676)的题目。
 1. 编号为“STSC”开头的是 CB_X2_Jun 为他的洛谷团队 [天空凌日武灵城 (STSC OI)](https://www.luogu.com.cn/team/87144) 创建的题目。  
    这种编号由 `STSC + 数字 + 大写字母` 构成：
-   - 数字代表 STSC OI 的第几场比赛。
-   - 字母代表该比赛中的第几题。
-   如：`STSC1B` 代表 `STSC OI - Round 1` 的B题（第2题）。
+   
+   > - 数字代表 STSC OI 的第几场比赛。
+   > - 字母代表该比赛中的第几题。
+   
+   如：STSC1B 代表 STSC OI - Round 1 的 B 题（第 2 题）。
 
 > 标签都是对应的洛谷题目上的标签。
-  
+
+---
+
 |编号|标题|标签|
 |-:|-:|-:|
 |ZJ001|[冰雹猜想/角谷猜想](https://cb-x2-jun.github.io/problem/ZJ001)|模拟;数学;循环结构|
