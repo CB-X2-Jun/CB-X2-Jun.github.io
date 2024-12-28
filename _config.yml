@@ -5,10 +5,8 @@ incremental: false
 highlighter: rouge
 gist:
   noscript: false
+markdown: kramdown
 kramdown:
-  math_engine: MathJax
+  math_engine: mathjax
   syntax_highlighter: rouge
 theme: jekyll-theme-minimal
-defaults:
-  values:
-    mathjax: true
