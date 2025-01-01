@@ -2,7 +2,7 @@
 ## 2024年
 ### 12月
 - [排序算法的时间复杂度](/b/2024/12/paixusuanfa-de-shijianfuzadu)
-- [洛谷 SP10509 CRDS - Cards 题解](/b/Luogu-problem-SP10509-solution)
+- [洛谷 SP10509 CRDS - Cards 题解](/b/2024/12/Luogu-problem-SP10509-solution)
 
 ---
 ### 访客统计
