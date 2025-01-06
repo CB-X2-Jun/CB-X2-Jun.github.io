@@ -53,6 +53,21 @@
       <section>
 
       {{ content }}
+	<div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="//woshisb.eu.org/js/gitalk.m.js"></script>
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'Ov23liUB3zvAkXmUoWSa',
+    clientSecret: 'ded08e1806895fafba41a2f9035170d3c81afecc',
+    repo: 'comments',
+    owner: 'CB-X2-Jun',
+    admin: ["CB-X2-Jun"],
+    id: location.pathname,
+    distractionFreeMode: false
+  });
+  gitalk.render('gitalk-container');
+</script>
 
       </section>
       <footer>
