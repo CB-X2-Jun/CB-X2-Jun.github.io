@@ -1,6 +1,6 @@
 # useless thing-无用程序箱
-
-[同内容链接](https://www.luogu.com.cn/paste/mqwdq59i)
+洛谷专栏链接：[https://www.luogu.com.cn/article/uzs16qki](https://www.luogu.com.cn/article/uzs16qki)  
+洛谷云剪贴板 [同内容链接](https://www.luogu.com.cn/paste/mqwdq59i)
 
 ```cpp
 #include <iostream>
@@ -150,7 +150,11 @@ int main()
 **此为 CB_X2_Jun 个人编写。转载请注明以下内容：**
 
 > 作者：CB_X2_Jun
-> 来源（$3$ 选 $1$）：`https://cb-x2-jun.github.io/b/2025/01/useless-thing-cpp` 或 `https://www.luogu.com.cn/article/uzs16qki` 或 `https://www.luogu.com.cn/paste/mqwdq59i`。
+> 
+> 来源（三选一）：
+> `https://cb-x2-jun.github.io/b/2025/01/useless-thing-cpp`  
+> 或 `https://www.luogu.com.cn/article/uzs16qki`  
+> 或 `https://www.luogu.com.cn/paste/mqwdq59i`。
 
 ---
 ### 访客统计
