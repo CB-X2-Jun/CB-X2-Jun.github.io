@@ -1,5 +1,6 @@
 # STSC1C 二叉树 (binary)
-洛谷提交链接：[https://www.luogu.com.cn/problem/T506776](https://www.luogu.com.cn/problem/T506776)
+洛谷提交链接：[https://www.luogu.com.cn/problem/T506776](https://www.luogu.com.cn/problem/T506776)  
+ETOJ 提交链接：[http://47.104.30.77/p/STSC1C](http://47.104.30.77/p/STSC1C)（注意本题在 ETOJ 使用文件 IO，文件名 `binary.in/binary.out`）
 ## 题目描述
 
 输入一个二叉树的前序与中序遍历，输出其后序遍历。
