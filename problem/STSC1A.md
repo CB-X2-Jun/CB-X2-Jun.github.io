@@ -1,6 +1,8 @@
 # STSC1A 加和 (sum)
 
-洛谷提交链接：[https://www.luogu.com.cn/problem/T508679](https://www.luogu.com.cn/problem/T508679)
+洛谷提交链接：[https://www.luogu.com.cn/problem/T508679](https://www.luogu.com.cn/problem/T508679)  
+ETOJ 提交链接：[http://47.104.30.77/p/STSC1A](http://47.104.30.77/p/STSC1A)（注意本题在 ETOJ 中使用文件 IO，文件名 `sum.in/sum.out`）
+
 ## 题目背景
 
 本题为前缀和练习题。**请使用前缀和完成本题**。
