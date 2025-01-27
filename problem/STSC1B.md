@@ -1,5 +1,6 @@
 # STSC1B 城墙 (walls)
-洛谷提交链接：[https://www.luogu.com.cn/problem/T506757](https://www.luogu.com.cn/problem/T506757)
+洛谷提交链接：[https://www.luogu.com.cn/problem/T506757](https://www.luogu.com.cn/problem/T506757)  
+ETOJ 提交链接：[http://47.104.30.77/p/STSC1B](http://47.104.30.77/p/STSC1B)
 
 ## 题目描述
 
