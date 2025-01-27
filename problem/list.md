@@ -11,17 +11,17 @@
    
    如：STSC1B 代表 STSC OI - Round 1 的 B 题（第 2 题）。
 
-> 标签都是对应的洛谷题目上的标签。
+> 标签都是对应的洛谷题目上的标签。难度也是。
 
 ---
 
-|编号|标题|标签|
-|-:|-:|-:|
-|ZJ001|[冰雹猜想/角谷猜想](https://cb-x2-jun.github.io/problem/ZJ001)|模拟;数学;循环结构|
-|ZJ002|[小 A 喜欢字母 A](https://cb-x2-jun.github.io/problem/ZJ002)|字符串;循环结构|
-|STSC1A|[加和 (sum)](https://cb-x2-jun.github.io/problem/STSC1A)|前缀和;数组;O2优化;2024|
-|STSC1B|[城墙 (walls)](https://cb-x2-jun.github.io/problem/STSC1B)|搜索;深度优先搜索 DFS;O2优化;2024|
-|STSC1C|[二叉树 (binary)](https://cb-x2-jun.github.io/problem/STSC1C)|树的遍历;O2优化;2024|
+|编号|标题|难度|标签|题型|
+|-:|-:|-:|-:|-:|
+|ZJ001|[冰雹猜想/角谷猜想](https://cb-x2-jun.github.io/problem/ZJ001)|入门|模拟;数学;循环结构|传统题|
+|ZJ002|[小 A 喜欢字母 A](https://cb-x2-jun.github.io/problem/ZJ002)|入门|字符串;循环结构|传统题|
+|STSC1A|[加和 (sum)](https://cb-x2-jun.github.io/problem/STSC1A)|入门|前缀和;数组;O2优化;2024|传统题|
+|STSC1B|[城墙 (walls)](https://cb-x2-jun.github.io/problem/STSC1B)|普及-|搜索;深度优先搜索 DFS;O2优化;2024|传统题|
+|STSC1C|[二叉树 (binary)](https://cb-x2-jun.github.io/problem/STSC1C)|普及-|树的遍历;O2优化;2024|传统题|
 
 ---
 ### 访客统计
