@@ -1,8 +1,10 @@
+# 主页
+
 <script type="text/javascript">
-alert("欢迎来到我的网站！");
+alert("欢迎来到我的网站！点击“确定”加载网页。");
 </script>
 
-# 主页
+
 ## 简介
 这是 [CB_X2_Jun](https://github.com/CB-X2-Jun) 的网站。暂时还没有想好要用来干什么。 
 
