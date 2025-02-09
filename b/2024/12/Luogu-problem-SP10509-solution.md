@@ -1,5 +1,5 @@
 # 洛谷 SP10509 CRDS - Cards 题解
-洛谷专栏链接：[https://www.luogu.com/article/sw971mnm](https://www.luogu.com/article/sw971mnm)
+洛谷专栏链接：[https://www.luogu.com.cn/article/sw971mnm](https://www.luogu.com.cn/article/sw971mnm)
 ### 修改记录
 **upd on 2024.07.17**：在表格中添加 $\LaTeX$。  
 **upd on 2024.07.19**：添加公式中的乘号。  
