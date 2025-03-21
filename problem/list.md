@@ -22,6 +22,8 @@
 |STSC1A|[加和 (sum)](https://cb-x2-jun.github.io/problem/STSC1A)|入门|前缀和;数组;O2优化;2024|传统题|
 |STSC1B|[城墙 (walls)](https://cb-x2-jun.github.io/problem/STSC1B)|普及-|搜索;深度优先搜索 DFS;O2优化;2024|传统题|
 |STSC1C|[二叉树 (binary)](https://cb-x2-jun.github.io/problem/STSC1C)|普及-|树的遍历;O2优化;2024|传统题|
+|STSC2A|[A+B 交互题版 (aplusb)](https://cb-x2-jun.github.io/problem/STSC2A)|入门|交互题;O2优化;2025|交互题|
+|STSC2B|[描述 (describe)](https://cb-x2-jun.github.io/problem/STSC2B)|入门|字符串;O2优化;2025|传统题|
 
 ---
 ### 访客统计
