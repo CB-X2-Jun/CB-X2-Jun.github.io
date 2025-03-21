@@ -46,3 +46,7 @@
 ## 6 结语
 
 打字不易，希望各位能到此项目的 **[GitHub 仓库](https://github.com/CB-X2-Jun/CB-X2-Jun.github.io)** 给我一个小小的 Star。
+
+---
+### 访客统计
+![](https://flagcounter.me/e7K)
