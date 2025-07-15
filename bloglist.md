@@ -11,6 +11,8 @@
 ### 02月
 - [获得免费的二级域名](/b/2025/02/free-second-level-domain-name)
 
+### 07月
+- [洛谷P12979 \[GCJ 2022 Qualification\] Punched Cards 题解](/b/2025/07/luogu-p12979-gcj-2022-qualification-punched-cards-solution)
 
 ---
 ### 访客统计
