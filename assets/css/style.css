@@ -95,15 +95,44 @@ body.dark-mode .sidebar {
   color: #ffd700;
   box-shadow: 0 4px 16px #23243a;
 }
-.btn-catalog { background: #2ccfcf; }
-.btn-friend { background: #b86bfa; }
-.btn-about { background: #f7b179; color: #23243a; }
-.btn-github { background: #181920; }
-.btn-github:hover { background: #444; color: #fff; }
-body.dark-mode .sidebar-btn { color: #fff; }
-body.dark-mode .btn-github { background: #23243a; }
-body.dark-mode .btn-github:hover { background: #444; }
-body.dark-mode .btn-about { background: #f7b179; color: #23243a; }
+.btn-catalog {
+  background: #2a3b4d;
+  color: #eaf6fb;
+}
+.btn-friend {
+  background: #3e2e53;
+  color: #e9e3f7;
+}
+.btn-about {
+  background: #4b3a28;
+  color: #ffe3b0;
+}
+.btn-github {
+  background: #23243a;
+  color: #e0e0e0;
+}
+.btn-catalog:hover, .btn-friend:hover, .btn-about:hover, .btn-github:hover {
+  filter: brightness(1.15) saturate(1.2);
+  color: #ffd700;
+  box-shadow: 0 4px 18px #222a;
+}
+body.dark-mode .btn-catalog {
+  background: #263747;
+  color: #b8e7ff;
+}
+body.dark-mode .btn-friend {
+  background: #352b44;
+  color: #e9d2ff;
+}
+body.dark-mode .btn-about {
+  background: #3f3326;
+  color: #ffe3b0;
+}
+body.dark-mode .btn-github {
+  background: #191a2a;
+  color: #e0e0e0;
+}
+
 .theme-toggle {
   margin-top: 1.5rem;
   width: 100%;
