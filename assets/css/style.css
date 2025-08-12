@@ -143,7 +143,90 @@ body.dark-mode .btn-github:hover { background: #333; }
   padding: 2.5rem 2.5rem 2rem 2.5rem;
   max-width: 900px;
   margin: 0 auto;
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  box-shadow: 0 2px 24px 0 #e3e3e3;
 }
+body.dark-mode .main-content {
+  background: rgba(33,34,44,0.98);
+  box-shadow: 0 2px 24px 0 #181920;
+}
+
+.main-content-area h1, .main-content-area h2, .main-content-area h3, .main-content-area h4, .main-content-area h5, .main-content-area h6 {
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 2.2rem;
+  margin-bottom: 1.1rem;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+body.dark-mode .main-content-area h1,
+body.dark-mode .main-content-area h2,
+body.dark-mode .main-content-area h3 {
+  color: var(--accent);
+}
+.main-content-area p {
+  font-size: 1.13em;
+  line-height: 1.85;
+  margin: 1.2em 0;
+  color: #222;
+}
+body.dark-mode .main-content-area p {
+  color: #e3e3e3;
+}
+.main-content-area ul, .main-content-area ol {
+  margin: 1.2em 0 1.2em 2em;
+  font-size: 1.08em;
+}
+.main-content-area li {
+  margin-bottom: 0.5em;
+}
+.main-content-area blockquote {
+  border-left: 4px solid var(--primary);
+  background: #f6f8fa;
+  color: #666;
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  font-style: italic;
+}
+body.dark-mode .main-content-area blockquote {
+  background: #23243a;
+  color: #b0b0b0;
+  border-left: 4px solid var(--accent);
+}
+.main-content-area img {
+  display: block;
+  margin: 2em auto;
+  max-width: 96%;
+  border-radius: 14px;
+  box-shadow: 0 2px 16px #e3e3e3;
+}
+body.dark-mode .main-content-area img {
+  box-shadow: 0 2px 16px #181920;
+}
+.main-content-area table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px #e3e3e3;
+}
+body.dark-mode .main-content-area table {
+  background: #23243a;
+  box-shadow: 0 2px 8px #181920;
+}
+.main-content-area th, .main-content-area td {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e3e3e3;
+}
+body.dark-mode .main-content-area th, body.dark-mode .main-content-area td {
+  border-bottom: 1px solid #333;
+}
+
 @media (max-width: 900px) {
   .layout-container {
     flex-direction: column;
