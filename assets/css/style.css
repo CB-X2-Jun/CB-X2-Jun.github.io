@@ -25,11 +25,124 @@ body.dark-mode {
   color: var(--text-dark);
 }
 
-.wrapper {
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 220px;
+  background: var(--bg-light);
+  border-right: 1.5px solid #e3e3e3;
+  padding: 2.5rem 1.2rem 2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  box-shadow: 2px 0 12px #f3f3f3;
+}
+body.dark-mode .sidebar {
+  background: var(--bg-dark);
+  border-right: 1.5px solid #333;
+  box-shadow: 2px 0 12px #181920;
+}
+.site-title {
+  font-size: 2rem;
+  margin: 0.5rem 0 1.2rem 0;
+  color: var(--primary);
+  letter-spacing: 1px;
+  text-align: center;
+}
+.sidebar-logo {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 8px #e3e3e3;
+  background: #fff;
+}
+.site-desc {
+  font-size: 1.05rem;
+  color: #888;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  width: 100%;
+  margin-bottom: 2.2rem;
+}
+.sidebar-btn {
+  display: block;
+  width: 100%;
+  padding: 0.9em 0;
+  font-size: 1.13em;
+  border: none;
+  border-radius: var(--border-radius);
+  background: var(--primary);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px #e3e3e3;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.sidebar-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 4px 16px #e3e3e3;
+}
+.btn-catalog { background: var(--primary); }
+.btn-friend { background: var(--accent); }
+.btn-about { background: var(--secondary); }
+.btn-github { background: #24292f; }
+.btn-github:hover { background: #444; }
+body.dark-mode .sidebar-btn { color: #fff; }
+body.dark-mode .btn-github { background: #181920; }
+body.dark-mode .btn-github:hover { background: #333; }
+.theme-toggle {
+  margin-top: 1.5rem;
+  width: 100%;
+}
+.main-content {
+  flex: 1;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem 1rem;
 }
+@media (max-width: 900px) {
+  .layout-container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100vw;
+    min-height: unset;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem 0.5rem;
+    border-right: none;
+    border-bottom: 1.5px solid #e3e3e3;
+    box-shadow: 0 2px 12px #f3f3f3;
+  }
+  .sidebar-nav {
+    flex-direction: row;
+    gap: 0.7rem;
+    margin-bottom: 0;
+    margin-left: 1.2rem;
+  }
+  .sidebar-btn {
+    font-size: 1em;
+    padding: 0.7em 1.2em;
+    width: unset;
+  }
+  .main-content {
+    padding: 1.5rem 0.5rem;
+  }
+}
+
 
 header, footer {
   text-align: center;
