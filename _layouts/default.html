@@ -55,9 +55,9 @@
         {% endif %}
         <p class="site-desc">{{ site.description | default: site.github.project_tagline }}</p>
         <nav class="sidebar-nav">
-          <a href="/目录" class="sidebar-btn btn-catalog">目录</a>
-          <a href="/友链" class="sidebar-btn btn-friend">友链</a>
-          <a href="/w/关于本网站" class="sidebar-btn btn-about">关于</a>
+          <a href="{{ '/目录' | relative_url }}" class="sidebar-btn btn-catalog">目录</a>
+          <a href="{{ '/友链' | relative_url }}" class="sidebar-btn btn-friend">友链</a>
+          <a href="{{ '/w/关于本网站' | relative_url }}" class="sidebar-btn btn-about">关于</a>
           <a href="{{ site.github.repository_url }}" class="sidebar-btn btn-github" target="_blank">GitHub</a>
         </nav>
         <button class="theme-toggle" onclick="toggleTheme()">切换深/浅色模式</button>
