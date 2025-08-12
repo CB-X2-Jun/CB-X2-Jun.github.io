@@ -49,11 +49,11 @@
     <div class="wrapper">
       <header>
         <h1><a href="{{ "/" | absolute_url }}">✦CB_X2_Jun✦</a></h1>
-	<a href="/"><img src="/logo.png" alt="CB_X2_Jun Logo"></a>
+	<a href="/"><img src="/logo.png" alt="CB_X2_Jun Logo" style="height:64px;border-radius:50%;box-shadow:0 2px 8px #ddd;"></a>
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{site.logo | relative_url}}" alt="Logo" style="height:64px;border-radius:50%;box-shadow:0 2px 8px #ddd;" />
         {% endif %}
-
+        <button class="theme-toggle" onclick="toggleTheme()">切换深/浅色模式</button>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
@@ -135,5 +135,21 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+      function toggleTheme() {
+        document.body.classList.toggle('dark-mode');
+        if(document.body.classList.contains('dark-mode')){
+          localStorage.setItem('theme', 'dark');
+        } else {
+          localStorage.setItem('theme', 'light');
+        }
+      }
+      // 初始加载时根据本地存储设置主题
+      (function(){
+        if(localStorage.getItem('theme') === 'dark'){
+          document.body.classList.add('dark-mode');
+        }
+      })();
+    </script>
   </body>
 </html>
