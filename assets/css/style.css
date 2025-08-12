@@ -80,15 +80,47 @@ body.dark-mode .sidebar {
   font-size: 1.13em;
   border: none;
   border-radius: var(--border-radius);
-  background: var(--primary);
+  background: #23243a;
   color: #fff;
   text-align: center;
   text-decoration: none;
   margin: 0 auto;
-  box-shadow: 0 2px 8px #e3e3e3;
+  box-shadow: 0 2px 8px #181920;
   transition: background 0.2s, color 0.2s, box-shadow 0.2s;
   cursor: pointer;
+  letter-spacing: 1px;
 }
+.sidebar-btn:hover {
+  background: #3c3e5e;
+  color: #ffd700;
+  box-shadow: 0 4px 16px #23243a;
+}
+.btn-catalog { background: #2ccfcf; }
+.btn-friend { background: #b86bfa; }
+.btn-about { background: #f7b179; color: #23243a; }
+.btn-github { background: #181920; }
+.btn-github:hover { background: #444; color: #fff; }
+body.dark-mode .sidebar-btn { color: #fff; }
+body.dark-mode .btn-github { background: #23243a; }
+body.dark-mode .btn-github:hover { background: #444; }
+body.dark-mode .btn-about { background: #f7b179; color: #23243a; }
+.theme-toggle {
+  margin-top: 1.5rem;
+  width: 100%;
+  background: #b86bfa;
+  color: #fff;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1.1em;
+  padding: 0.8em 0;
+  box-shadow: 0 2px 8px #181920;
+  transition: background 0.2s, color 0.2s;
+}
+.theme-toggle:hover {
+  background: #2ccfcf;
+  color: #23243a;
+}
+
 .sidebar-btn:hover {
   background: var(--accent);
   color: #fff;
