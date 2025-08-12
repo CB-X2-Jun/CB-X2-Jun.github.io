@@ -175,8 +175,32 @@ body.dark-mode .main-content-area p {
   color: #e3e3e3;
 }
 .main-content-area ul, .main-content-area ol {
-  margin: 1.2em 0 1.2em 2em;
+  margin: 1.2em 0 1.2em 2.2em;
   font-size: 1.08em;
+  padding-left: 0.6em;
+}
+.main-content-area ul {
+  list-style: disc inside circle;
+}
+.main-content-area ol {
+  list-style: decimal inside;
+}
+.main-content-area ul ul, .main-content-area ol ul, .main-content-area ul ol, .main-content-area ol ol {
+  margin-left: 1.2em;
+  font-size: 0.97em;
+  opacity: 0.92;
+}
+.main-content-area li {
+  margin-bottom: 0.4em;
+  line-height: 1.7;
+}
+.main-content-area hr {
+  border: none;
+  border-top: 1.5px dashed #e0e0e0;
+  margin: 2.2em 0;
+}
+body.dark-mode .main-content-area hr {
+  border-top: 1.5px dashed #333;
 }
 .main-content-area li {
   margin-bottom: 0.5em;
