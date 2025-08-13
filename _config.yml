@@ -10,7 +10,6 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: jekyll-theme-minimal
-baseurl: "/CB-X2-Jun.github.io"  # 仓库名，前面有斜杠
 gitalk:
   clientID: 'Ov23liUB3zvAkXmUoWSa'
   clientSecret: 'ded08e1806895fafba41a2f9035170d3c81afecc'
