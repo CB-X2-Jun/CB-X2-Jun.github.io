@@ -17,13 +17,13 @@
 
 |编号|标题|难度|标签|题型|
 |-:|-:|-:|-:|-:|
-|ZJ001|[冰雹猜想/角谷猜想](/problem/ZJ001)|入门|模拟;数学;循环结构|传统题|
-|ZJ002|[小 A 喜欢字母 A](/problem/ZJ002)|入门|字符串;循环结构|传统题|
-|STSC1A|[加和 (sum)](/problem/STSC1A)|入门|前缀和;数组;O2优化;2024|传统题|
-|STSC1B|[城墙 (walls)](/problem/STSC1B)|普及-|搜索;深度优先搜索 DFS;O2优化;2024|传统题|
-|STSC1C|[二叉树 (binary)](/problem/STSC1C)|普及-|树的遍历;O2优化;2024|传统题|
-|STSC2A|[A+B 交互题版 (aplusb)](/problem/STSC2A)|入门|交互题;O2优化;2025|交互题|
-|STSC2B|[描述 (describe)](/problem/STSC2B)|入门|字符串;O2优化;2025|传统题|
+|ZJ001|[冰雹猜想/角谷猜想](https://cb-x2-jun.github.io/problem/ZJ001)|入门|模拟;数学;循环结构|传统题|
+|ZJ002|[小 A 喜欢字母 A](https://cb-x2-jun.github.io/problem/ZJ002)|入门|字符串;循环结构|传统题|
+|STSC1A|[加和 (sum)](https://cb-x2-jun.github.io/problem/STSC1A)|入门|前缀和;数组;O2优化;2024|传统题|
+|STSC1B|[城墙 (walls)](https://cb-x2-jun.github.io/problem/STSC1B)|普及-|搜索;深度优先搜索 DFS;O2优化;2024|传统题|
+|STSC1C|[二叉树 (binary)](https://cb-x2-jun.github.io/problem/STSC1C)|普及-|树的遍历;O2优化;2024|传统题|
+|STSC2A|[A+B 交互题版 (aplusb)](https://cb-x2-jun.github.io/problem/STSC2A)|入门|交互题;O2优化;2025|交互题|
+|STSC2B|[描述 (describe)](https://cb-x2-jun.github.io/problem/STSC2B)|入门|字符串;O2优化;2025|传统题|
 
 ---
 ### 访客统计
