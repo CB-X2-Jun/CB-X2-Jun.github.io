@@ -5,16 +5,27 @@
     <meta name="author" content="CB_X2_Jun">
     <link rel="icon" href="/favicon.ico">
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script src="https://verigate1.netlify.app/verigate.js" onload="(function(){
-  // 30% 概率出现验证码
-  if(Math.random() < 0.3 && window.VeriGate && typeof window.VeriGate.render === 'function'){
-    if(!document.getElementById('verigate-container')){
-      var div = document.createElement('div');
-      div.id = 'verigate-container';
-      div.style = 'margin:16px 0;';
-      document.body.insertBefore(div, document.body.firstChild);
-    }
-    window.VeriGate.render('#verigate-container', { mode: 'slider' });
-  }
-})();"></script>
+    <script src="https://verigate1.netlify.app/verigate.js"></script>
+    <script>
+    // 博客页面自动植入 VeriGate 验证，支持跳转拦截
+    document.addEventListener('DOMContentLoaded', function() {
+      // 拦截所有带 .verigate-redirect 的跳转按钮/链接
+      document.querySelectorAll('a.verigate-redirect, button.verigate-redirect').forEach(function(el) {
+        el.addEventListener('click', function(e) {
+          var url = el.getAttribute('href') || el.dataset.url;
+          if(url){
+            e.preventDefault();
+            // 动态插入容器
+            if(!document.getElementById('verigate-container')){
+              var div = document.createElement('div');
+              div.id = 'verigate-container';
+              div.style = 'margin:16px 0;';
+              document.body.insertBefore(div, document.body.firstChild);
+            }
+            window.VeriGate.render('#verigate-container', { autoRedirect: url, mode: 'slider' });
+          }
+        });
+      });
+    });
+    </script>
 </head>
