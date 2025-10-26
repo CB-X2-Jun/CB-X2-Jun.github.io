@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your IP Address</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <p id="ip">Fetching...</p>
+
+    <script>
+        // 使用 httpbin.org 的 IP API
+        fetch('https://httpbin.org/ip')
+            .then(response => response.json())
+            .then(data => {
+                // 从返回的JSON中提取origin字段（IP地址）
+                document.getElementById('ip').textContent = data.origin;
+            })
+            .catch(error => {
+                // 如果获取失败，显示错误信息
+                console.error('Error fetching IP:', error);
+                document.getElementById('ip').textContent = 'Could not fetch IP.';
+            });
+    </script>
+</body>
+</html>
