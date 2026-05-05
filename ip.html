@@ -9,7 +9,7 @@
 
     <script>
         // 使用 httpbin.org 的 IP API
-        fetch('http://httpbin.org/ip')
+        fetch('https://httpbin.org/ip')
             .then(response => response.json())
             .then(data => {
                 // 从返回的JSON中提取origin字段（IP地址）
